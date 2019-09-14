@@ -1,15 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Nav from './Nav';
 
 const Header = () => (
-  <header>
+  <header className="header-container">
     <h1>JordanMMcK</h1>
-    <NavLink to="/input" activeClassName="is-active" exact>
-      INPUT
-    </NavLink>
-    <NavLink to="/output" activeClassName="is-active">
-      OUTPUT
-    </NavLink>
+    <Nav />
   </header>
 );
 

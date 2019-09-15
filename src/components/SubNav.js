@@ -5,7 +5,11 @@ const SubNav = props => (
   <div className="sub-nav-container">
     {props.childLinks.map(childLink => {
       return (
-        <NavLink key={childLink} to={`/${props.parentLink}/${childLink}`}>
+        <NavLink
+          key={childLink}
+          to={`/${props.parentLink}/${childLink}`}
+          activeClassName="is-active"
+        >
           {childLink}
         </NavLink>
       );

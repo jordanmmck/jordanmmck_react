@@ -2,7 +2,7 @@
 
 ## To Do
 
-- sticky footer
+- Long-form writing section should display the overview with previews, each with a link to `/output/long/id`. So, there should be a Router which render a Post component with the `id` passed in. Then the Post component should use the id to get the markdown file and render it.
 
 ## Content Layout
 

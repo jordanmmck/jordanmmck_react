@@ -2,7 +2,10 @@ import React from 'react';
 
 const Long = () => (
   <div className="long-container">
-    <h3>LONG</h3>
+    <div>thing 1</div>
+    <div>thing 1</div>
+    <div>thing 1</div>
+    <div>thing 1</div>
   </div>
 );
 

@@ -11,7 +11,7 @@ const AppRouter = () => (
   <BrowserRouter>
     <Header />
     <Switch>
-      <Route path="/" exact component={Output} />
+      <Route exact path="/" component={Output} />
       <Route path="/input" component={Input} />
       <Route path="/output" component={Output} />
       <Route path="/self" component={Self} />

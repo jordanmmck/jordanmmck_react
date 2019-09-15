@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Header from '../components/Header';
 import Input from '../components/Input';
 import Output from '../components/Output';
@@ -11,7 +11,7 @@ const AppRouter = () => (
   <BrowserRouter>
     <Header />
     <Switch>
-      <Route exact path="/" component={Output} />
+      <Redirect exact path="/" to="output" />
       <Route path="/input" component={Input} />
       <Route path="/output" component={Output} />
       <Route path="/self" component={Self} />

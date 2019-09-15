@@ -1,5 +1,9 @@
 # jordanmmck
 
+## To Do
+
+- sticky footer
+
 ## Content Layout
 
 - INPUT

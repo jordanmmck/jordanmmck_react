@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import SubNav from './SubNav';
-import About from './About';
-import Pictures from './Pictures';
-import Resume from './Resume';
+import About from './self/About';
+import Pictures from './self/Pictures';
+import Resume from './self/Resume';
 
 const Self = () => (
   <div className="self-container">

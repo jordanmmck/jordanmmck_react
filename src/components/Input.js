@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import SubNav from './SubNav';
-import People from './People';
-import Movies from './Movies';
-import Books from './Books';
-import Ideas from './Ideas';
+import People from './input/People';
+import Movies from './input/Movies';
+import Books from './input/Books';
+import Ideas from './input/Ideas';
 
 const Input = () => (
   <div className="input-container">

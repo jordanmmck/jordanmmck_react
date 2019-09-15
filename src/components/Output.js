@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import SubNav from './SubNav';
-import Long from './Long';
-import Short from './Short';
+import Long from './output/Long';
+import Short from './output/Short';
 
 const Output = () => (
   <div className="output-container">

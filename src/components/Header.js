@@ -1,9 +1,12 @@
 import React from 'react';
 import Nav from './Nav';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="header-container">
-    <h1>JordanMMcK</h1>
+    <NavLink to="/">
+      <h1>JordanMMcK</h1>
+    </NavLink>
     <Nav />
   </header>
 );

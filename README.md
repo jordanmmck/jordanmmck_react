@@ -2,9 +2,14 @@
 
 ## To Do
 
+- get code blocks rendering with fira code? ligatures anyway
 - styling
-- markdown rendering
 - lazy loading? make bundle.js smaller
+- deploy onto DO
+
+## Features
+
+- dark mode
 
 ## Content Map
 
@@ -40,5 +45,5 @@
 - SELF
   - History/About
   - Pictures
-  - Interests/Goals
+  - Interests/Goals/ETH address
   - Values?

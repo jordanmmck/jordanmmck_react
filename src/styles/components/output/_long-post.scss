@@ -1,0 +1,14 @@
+.long-post-container {
+  padding: $m-size $xl-size;
+  h1 {
+    font-size: 50px;
+  }
+  code {
+  }
+  img {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    align-self: center;
+  }
+}

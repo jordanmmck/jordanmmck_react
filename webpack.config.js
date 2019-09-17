@@ -38,6 +38,14 @@ module.exports = env => {
             ],
           }),
         },
+        {
+          test: /\.(png|svg|jpe?g|gif)$/,
+          loader: 'file-loader',
+        },
+        {
+          test: /\.md$/,
+          loader: 'raw-loader',
+        },
       ],
     },
     plugins: [CSSExtract],

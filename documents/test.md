@@ -11,8 +11,9 @@ Also coming soon...
 ```js
 // define thing to 1
 const thing = 1;
-const f = () => {
-  console.info(thing);
+const f = (a, b) => {
+  if (a === 1) {}
+  else if (a >= 3) {}
 };
 ```
 

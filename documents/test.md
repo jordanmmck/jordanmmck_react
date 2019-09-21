@@ -11,9 +11,10 @@ Also coming soon...
 ```js
 // define thing to 1
 const thing = 1;
-const f = (a, b) => {
+const s = 'stringgg'
+const func = (a, b) => {
   if (a === 1) {}
-  else if (a >= 3) {}
+  else if (a === true) {}
 };
 ```
 
@@ -28,9 +29,10 @@ a:active {
 
 ```python
 # comment
-def f(a, b):
+def func(a, b):
   for i in range(10):
     print(i, a, b)
+    print(False)
 
 a = [1, 2, 3]
 ```

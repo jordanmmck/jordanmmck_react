@@ -1,14 +1,14 @@
 export default {
   'code[class*="language-"]': {
-    color: '#c5c8c6',
-    textShadow: '0 1px rgba(0, 0, 0, 0.3)',
+    color: '#9efeff',
+    textShadow: '0 0px rgba(0, 0, 0, 0.3)',
     fontFamily: "'Fira Code',Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace",
     direction: 'ltr',
     textAlign: 'left',
     whiteSpace: 'pre',
     wordSpacing: 'normal',
     wordBreak: 'normal',
-    lineHeight: '1.5',
+    lineHeight: '1.4',
     MozTabSize: '4',
     OTabSize: '4',
     tabSize: '4',
@@ -18,15 +18,15 @@ export default {
     hyphens: 'none',
   },
   'pre[class*="language-"]': {
-    color: '#c5c8c6',
-    textShadow: '0 1px rgba(0, 0, 0, 0.3)',
+    color: '#9efeff',
+    textShadow: '0 0px rgba(0, 0, 0, 0.3)',
     fontFamily: "'Fira Code', Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace",
     direction: 'ltr',
     textAlign: 'left',
     whiteSpace: 'pre',
     wordSpacing: 'normal',
     wordBreak: 'normal',
-    lineHeight: '1.5',
+    lineHeight: '1.4',
     MozTabSize: '4',
     OTabSize: '4',
     tabSize: '4',
@@ -46,41 +46,41 @@ export default {
     borderRadius: '.3em',
   },
   comment: {
-    color: '#7C7C7C',
+    color: '#6e6e6e',
   },
   prolog: {
-    color: '#7C7C7C',
+    color: '#6e6e6e',
   },
   doctype: {
-    color: '#7C7C7C',
+    color: '#6e6e6e',
   },
   cdata: {
-    color: '#7C7C7C',
+    color: '#6e6e6e',
   },
   punctuation: {
-    color: '#c5c8c6',
+    color: '#c3c2ff',
   },
   '.namespace': {
     Opacity: '.7',
   },
   property: {
-    color: '#96CBFE',
+    color: '#8cb8ff',
   },
   keyword: {
-    color: '#96CBFE',
+    color: '#8cb8ff',
   },
   tag: {
-    color: '#96CBFE',
+    color: '#8cb8ff',
   },
   'class-name': {
-    color: '#FFFFB6',
+    color: '#ffe1b6',
     textDecoration: 'underline',
   },
   boolean: {
-    color: '#99CC99',
+    color: '#8573ff',
   },
   constant: {
-    color: '#99CC99',
+    color: '#96ff96',
   },
   symbol: {
     color: '#f92672',
@@ -92,28 +92,29 @@ export default {
     color: '#FF73FD',
   },
   selector: {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   'attr-name': {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   string: {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   char: {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   builtin: {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   inserted: {
-    color: '#A8FF60',
+    color: '#5effbf',
   },
   variable: {
-    color: '#C6C5FE',
+    color: '#c182ff',
   },
+
   operator: {
-    color: '#EDEDED',
+    color: '#ffbfed',
   },
   entity: {
     color: '#FFFFB6',
@@ -123,10 +124,10 @@ export default {
     color: '#96CBFE',
   },
   '.language-css .token.string': {
-    color: '#87C38A',
+    color: '#9cffd7',
   },
   '.style .token.string': {
-    color: '#87C38A',
+    color: '#9cffd7',
   },
   atrule: {
     color: '#F9EE98',
@@ -135,7 +136,7 @@ export default {
     color: '#F9EE98',
   },
   function: {
-    color: '#DAD085',
+    color: '#ff8585',
   },
   regex: {
     color: '#E9C062',

@@ -7,7 +7,7 @@ import Resume from './self/Resume';
 
 const Self = () => (
   <div className="self-container">
-    <SubNav parentLink="self" childLinks={['about', 'pictures', 'resume']}></SubNav>
+    <SubNav parentLink="self" childLinks={['ABOUT', 'PICTURES', 'RESUME']}></SubNav>
     <Switch>
       <Redirect exact path="/self" to="/self/about" />
       <Route path={`/self/about`} component={About} />

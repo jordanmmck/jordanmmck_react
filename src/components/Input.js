@@ -8,7 +8,7 @@ import Ideas from './input/Ideas';
 
 const Input = () => (
   <div className="input-container">
-    <SubNav parentLink="input" childLinks={['people', 'movies', 'books', 'ideas']}></SubNav>
+    <SubNav parentLink="input" childLinks={['PEOPLE', 'MOVIES', 'BOOKS', 'IDEAS']}></SubNav>
     <Switch>
       <Redirect exact path="/input" to="/input/people" />
       <Route path={`/input/people`} component={People} />

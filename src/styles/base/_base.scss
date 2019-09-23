@@ -1,7 +1,11 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
 body {
-  font-family: basic-sans, sans-serif;
-  font-size: 1rem;
-  background: rgb(24, 22, 48);
+  height: 100vh;
+  overflow: auto;
 }
 
 #app {

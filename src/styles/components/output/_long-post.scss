@@ -22,7 +22,7 @@
   h6 {
     font-family: 'Open Sans', 'sans-serif';
     padding: 0;
-    margin: 3rem 0 0 0;
+    margin: 3.5rem 0 0 0;
     margin-bottom: -1rem;
   }
   h2 {
@@ -37,7 +37,7 @@
   p {
     font-size: 1.1rem;
     line-height: 2.1rem;
-    margin: 1.5rem 0 0 0;
+    margin: 2rem 0 0 0;
   }
   p > code {
     background: $inline-code;
@@ -46,14 +46,39 @@
     padding: 0.2rem 0.5rem;
     margin: 0 0.1rem;
   }
+  a {
+    color: darken($pale-purple, 30%);
+    text-decoration: none;
+  }
   img {
     width: 100%;
     border-radius: 3px;
+    padding: 0;
+  }
+  blockquote > p {
+    margin: 0;
+  }
+  blockquote > ul {
+    list-style-type: none;
+  }
+  blockquote > ul > li:before {
+    content: '⁠—';
+    margin-left: -1rem;
+    font-style: normal;
+  }
+  ul > li {
+    font-size: 1.1rem;
+    line-height: 2rem;
   }
   blockquote {
-    color: lighten($off-black, 25%);
-    background: rgb(220, 255, 242);
-    padding: 0 1rem;
+    color: lighten($off-black, 20%);
+    background: darken($pale-purple, 2%);
+    padding: 1rem;
     font-style: italic;
+    margin: 2rem 1rem;
+  }
+  hr {
+    margin: 2rem 0 0 0;
+    border-top: 1px solid darken($pale-purple, 10%);
   }
 }

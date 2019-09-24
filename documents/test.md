@@ -1,6 +1,22 @@
 # ♦ Ethereum: World Computer ♦
 
-I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment on Twitter I decided I should try to figure out how I’m wrong. `const a = 1; a => 2`. More text... More, more, more. I’ve long been skeptical that Bitcoin would win out as future-money, but in light...
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin [sentiment](./asdfasdf)...
+
+* MD5: hashing function
+* SHA256: better hashing function
+  * security
+  * **speed**
+* AES-CES: encryption algorithm
+
+Bold text: **important thing**!
+Italics text: *important thing*!
+
+> I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
+> - Jordan McKinney
+
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
+
+---
 
 ```js
 const a = 1;

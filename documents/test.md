@@ -1,34 +1,27 @@
 # ♦ Ethereum: World Computer ♦
 
-I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin [sentiment](./asdfasdf)...
-
-* MD5: hashing function
-* SHA256: better hashing function
-  * security
-  * **speed**
-* AES-CES: encryption algorithm
-
-Bold text: **important thing**!
-Italics text: *important thing*!
+Here in some inline code: `a => b ==> c`.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+Here is some more: `A < B <= C === D`.
 
 > I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
 > - Jordan McKinney
 
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
 
----
-
 ```js
-const a = 1;
-const f = () => {}
+// define thing to 1
+const thing = 1;
+const s = 'string'
+const func = (a, b) => {
+  if (a === 1) {}
+  else if (a === true) {}
+};
 ```
 
-Test text...
+During research I ran into the question of how Bitcoin will maintain security as the block reward declines. Despite a lot of searching (and pestering people on Twitter) I was surprised at how little discussion I found, and how bad the proposed solutions seemed.
 
-```js
-const a = 1;
-const f = () => {}
-```
+![header](/images/header.jpeg)
 
 ## H2 Header
 
@@ -50,19 +43,7 @@ Value is stored on the Bitcoin network — that is its purpose.
 
 The network uses proof-of-work (PoW) to (among other things) protect against 51% attacks. PoW protects against `51% => 55%` attacks by making them expensive to pull off — not impossible!
 
-![header](/images/header.jpeg)
-
 To successfully do a 51% you need to acquire slightly more than half the hash power of the network. If the network has a lot of hash power then this will probably be expensive because hash power has a real world cost (hardware and electricity).
-
-```js
-// define thing to 1
-const thing = 1;
-const s = 'stringgg'
-const func = (a, b) => {
-  if (a === 1) {}
-  else if (a === true) {}
-};
-```
 
 ```css
 a {

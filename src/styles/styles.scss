@@ -1,5 +1,6 @@
 @import './base/settings';
 @import './base/base';
+@import './base/post';
 @import './components/header';
 @import './components/nav';
 @import './components/input';
@@ -14,7 +15,6 @@
 @import './components/input/ideas';
 @import './components/output/long';
 @import './components/output/short';
-@import './components/output/long-post';
 @import './components/self/about';
 @import './components/self/pictures';
 @import './components/self/resume';

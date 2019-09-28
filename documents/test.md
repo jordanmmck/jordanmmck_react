@@ -1,8 +1,17 @@
 # ♦ Ethereum: World Computer ♦
 
+![header](/images/header.jpeg)
+
 Here in some inline code: `a => b ==> c`.
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
 Here is some more: `A < B <= C === D`.
+Here in some inline code: `a => b ==> c`.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+Here is some more: `A < B <= C === D`.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+  I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
 
 > I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
 > - Jordan McKinney
@@ -11,7 +20,7 @@ I’ve long been skeptical that Bitcoin would win out as future-money, but in li
 
 ```js
 // define thing to 1
-const thing = 1;
+const thing = 1111111111111111111111;
 const s = 'string'
 const func = (a, b) => {
   if (a === 1) {}
@@ -22,6 +31,10 @@ const func = (a, b) => {
 During research I ran into the question of how Bitcoin will maintain security as the block reward declines. Despite a lot of searching (and pestering people on Twitter) I was surprised at how little discussion I found, and how bad the proposed solutions seemed.
 
 ![header](/images/header.jpeg)
+
+![alt text][logo]
+
+[logo]: /images/header.jpeg "Logo Title Text 2"
 
 ## H2 Header
 

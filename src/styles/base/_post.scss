@@ -3,7 +3,7 @@
   color: $off-black;
   background: $pale-purple;
   padding: 1.5rem;
-  margin-top: 1.5rem;
+  margin: 1.5rem 0;
   border-radius: 3px;
   max-width: $post-width;
   h1 {
@@ -21,7 +21,7 @@
   h5,
   h6 {
     font-family: 'Open Sans';
-    margin: 3.5rem 0 -1rem 0;
+    margin: 3.5rem 2rem -1rem 2rem;
     padding: 0;
   }
   h2 {
@@ -36,7 +36,8 @@
   p {
     font-size: 1.1rem;
     line-height: 2.1rem;
-    margin: 2rem 0 0 0;
+    margin: 2rem 2rem 0 2rem;
+    padding: 0;
   }
   p > code {
     font-family: 'Fira Code', monospace;
@@ -49,9 +50,11 @@
     color: darken($pale-purple, 30%);
     text-decoration: none;
   }
-  img {
-    width: 100%;
+  p > img {
+    width: 110.1%;
     border-radius: 3px;
+    margin-left: 50%;
+    transform: translate(-50%);
   }
   blockquote {
     color: lighten($off-black, 20%);

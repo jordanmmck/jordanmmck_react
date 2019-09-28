@@ -1,6 +1,6 @@
 export default {
   'code[class*="language-"]': {
-    color: '#9efeff',
+    color: '#9efaff',
     textShadow: '0 0px rgba(0, 0, 0, 0.3)',
     fontFamily: "'Fira Code',Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace",
     direction: 'ltr',
@@ -18,7 +18,7 @@ export default {
     hyphens: 'none',
   },
   'pre[class*="language-"]': {
-    color: '#9efeff',
+    color: '#9efaff',
     textShadow: '0 0px rgba(0, 0, 0, 0.3)',
     fontFamily: "'Fira Code', Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace",
     direction: 'ltr',
@@ -38,10 +38,10 @@ export default {
     margin: '2rem 2rem 0 2rem',
     overflow: 'auto',
     borderRadius: '0.3em',
-    background: '#1d1f21',
+    background: '#2f2f33',
   },
   ':not(pre) > code[class*="language-"]': {
-    background: '#1d1f21',
+    background: '#2f2f33',
     padding: '.1em',
     borderRadius: '.3em',
   },
@@ -58,63 +58,62 @@ export default {
     color: '#6e6e6e',
   },
   punctuation: {
-    color: '#c3c2ff',
+    color: '#c2c2ff',
   },
   '.namespace': {
     Opacity: '.7',
   },
   property: {
-    color: '#8cb8ff',
+    color: '#96a4ff',
   },
   keyword: {
-    color: '#8cb8ff',
+    color: '#96a4ff',
   },
   tag: {
-    color: '#8cb8ff',
+    color: '#96a4ff',
   },
   'class-name': {
-    color: '#ffe1b6',
+    color: '#ffd3b6',
     textDecoration: 'underline',
   },
   boolean: {
-    color: '#8573ff',
+    color: '#ff7373',
   },
   constant: {
     color: '#96ff96',
   },
   symbol: {
-    color: '#f92672',
+    color: '#fd4b1f',
   },
   deleted: {
-    color: '#f92672',
+    color: '#fd4b1f',
   },
   number: {
-    color: '#FF73FD',
+    color: '#ff52fc',
   },
   selector: {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   'attr-name': {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   string: {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   char: {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   builtin: {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   inserted: {
-    color: '#5effbf',
+    color: '#5effb4',
   },
   variable: {
-    color: '#c182ff',
+    color: '#ff52fc',
   },
-
   operator: {
-    color: '#ffbfed',
+    color: '#f8b0ff',
   },
   entity: {
     color: '#FFFFB6',
@@ -130,19 +129,19 @@ export default {
     color: '#9cffd7',
   },
   atrule: {
-    color: '#F9EE98',
+    color: '#ffb69c',
   },
   'attr-value': {
-    color: '#F9EE98',
+    color: '#ffb69c',
   },
   function: {
-    color: '#ff8585',
+    color: '#ff9c9c',
   },
   regex: {
-    color: '#E9C062',
+    color: '#ff9c9c',
   },
   important: {
-    color: '#fd971f',
+    color: '#fd4b1f',
     fontWeight: 'bold',
   },
   bold: {

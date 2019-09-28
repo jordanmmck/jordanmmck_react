@@ -1,5 +1,66 @@
 # ♦ Ethereum: World Computer ♦
 
+```js
+const aaaa = 1;
+const bbbb = 'string';
+const cccc = `test${aaaa}`;
+const dddd = true;
+// comment
+const function = (a, b) => {
+  console.log(!aaaa >= bbbb);
+  Date.now() * 100;
+};
+class x extends y {
+
+}
+```
+
+```python
+# comment
+class Animal:
+  def __init__():
+    self.u = 1234
+
+def function(a, b):
+  for i in range(55):
+    print(i)
+```
+
+```jsx
+import { NavLink } from 'react-router-dom';
+
+export default class TwetchStream extends React.Component {
+  state = {
+    c: [],
+    u: [],
+  };
+}
+
+const SubNav = props => (
+  <div className="sub-nav-container">
+    {props.childLinks.map(childLink => {
+      return (
+        <NavLink
+          key={childLink}
+          to={`/${props.parentLink}/${childLink}`}
+          activeClassName="is-active"
+        >
+          {childLink}
+        </NavLink>
+      );
+    })}
+  </div>
+);
+
+export default SubNav;
+```
+
+```css
+ul > li {
+  background: #eee;
+}
+```
+
 ![header](/images/header.jpeg)
 
 Here in some inline code: `a => b ==> c`.
@@ -11,9 +72,10 @@ Here is some more: `A < B <= C === D`.
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
-  I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
+I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin.
 
 > I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
+>
 > - Jordan McKinney
 
 I’ve long been skeptical that Bitcoin would win out as future-money, but in light of the recent increase in pro-Bitcoin sentiment...
@@ -21,10 +83,11 @@ I’ve long been skeptical that Bitcoin would win out as future-money, but in li
 ```js
 // define thing to 1
 const thing = 1111111111111111111111;
-const s = 'string'
+const s = 'string';
 const func = (a, b) => {
-  if (a === 1) {}
-  else if (a === true) {}
+  if (a === 1) {
+  } else if (a === true) {
+  }
 };
 ```
 
@@ -34,7 +97,7 @@ During research I ran into the question of how Bitcoin will maintain security as
 
 ![alt text][logo]
 
-[logo]: /images/header.jpeg "Logo Title Text 2"
+[logo]: /images/header.jpeg 'Logo Title Text 2'
 
 ## H2 Header
 
@@ -85,13 +148,13 @@ Therefore the security of a PoW network depends on how much money the network is
 
 ## Simplest Example
 
-A new ASIC-resistant, PoW cryptocurrency appears. It pays out exactly $1M/day (the security budget!) to miners regardless of total hash power etc.
+A new ASIC-resistant, PoW cryptocurrency appears. It pays out exactly \$1M/day (the security budget!) to miners regardless of total hash power etc.
 
-At first, one person mines. Total money spent mining is low, hash power is low, difficulty is low, and they earn the entire $1M/day.
+At first, one person mines. Total money spent mining is low, hash power is low, difficulty is low, and they earn the entire \$1M/day.
 
-New miners join. Total money spent mining rises, hash power rises, difficulty rises, and the $1M/day is spread across more people.
+New miners join. Total money spent mining rises, hash power rises, difficulty rises, and the \$1M/day is spread across more people.
 
-As the system approaches equilibrium, the combined cost expended by miners (“total spend”) approaches, but is always less than, $1M/day.
+As the system approaches equilibrium, the combined cost expended by miners (“total spend”) approaches, but is always less than, \$1M/day.
 
 ![eth](/images/eth.jpeg)
 
@@ -99,7 +162,7 @@ Why?
 
 If the total spend were more than $1M/day the less efficient miners would lose money and soon quit — lowering total spend. If the total spend were much less than $1M/day new miners would join, eat those profits, and total spend would creep upward.
 
-Now, since the size of that $1M/day pie that miners fight for depends on how much hash power they contribute, they constantly compete to output more hash power per dollar spent.
+Now, since the size of that \$1M/day pie that miners fight for depends on how much hash power they contribute, they constantly compete to output more hash power per dollar spent.
 
 Therefore the $1M/day security budget will tend to get the network close to the maximum total hash power that can be had for $1M/day. This is good!
 
@@ -109,17 +172,17 @@ Let’s attack this network. To 51% any PoW network we just need a bit more than
 
 Well, we know the protocol pays out $1M/day. So, the miners can’t be spending more than $1M/day mining. Competition should squeeze them to produce close to the maximum total hash that can be had for $1M/day — but that’s OK, it’s still capped at $1M/day.
 
-So we can kill the network for about $1M/day.
+So we can kill the network for about \$1M/day.
 
 ### Defense
 
 How could our attack be prevented? Well, all you can do with PoW is make attacks more expensive, so you increase the security budget.
 
-Suppose the network doubles the security budget to $2M/day. New miners join, total spend increases, hash power increases, and a new equilibrium is reached just like before. Now total spend is close to, but less than, $2M/day. And the network has close to the maximum hash power you can get for $2M/day.
+Suppose the network doubles the security budget to $2M/day. New miners join, total spend increases, hash power increases, and a new equilibrium is reached just like before. Now total spend is close to, but less than, $2M/day. And the network has close to the maximum hash power you can get for \$2M/day.
 
-OK. Now we can kill the network for $2M/day.
+OK. Now we can kill the network for \$2M/day.
 
-It also works in the other direction. If the amount paid to miners were halved from $1M/day to $500K/day we could kill the network for $500K/day.
+It also works in the other direction. If the amount paid to miners were halved from $1M/day to $500K/day we could kill the network for \$500K/day.
 
 ### Security Budget Determines Security!
 
@@ -130,6 +193,7 @@ Now, we’ve seen that the cost to attack depends on how much miners are spendin
 Therefore, we can see that security budget determines network security.
 
 ## ASIC Example
+
 In the example above, the network was ASIC-resistant and we concluded that security budget determines security.
 
 Does this conclusion change if we add ASICs? Bitcoin has ASICs after all, and this post is (supposedly) about Bitcoin.
@@ -138,7 +202,7 @@ Does this conclusion change if we add ASICs? Bitcoin has ASICs after all, and th
 
 A new ASIC-mined cryptocurrency appears. It pays $1M/day ($365M/year) to miners. Miners must purchase, and periodically upgrade, the ASICs used to mine on the network — this can be amortized into an annual hardware cost. They also incur an annual operating cost (the usual electricity, etc).
 
-Maybe it works out that miners spend $250M/year on hardware and $100M/year on operating cost. Whatever the break down is, they can’t sustainably* spend more than they earn. So, the sum of these will approach, but generally be less than, annual miner revenue — aka the annual security budget:
+Maybe it works out that miners spend $250M/year on hardware and $100M/year on operating cost. Whatever the break down is, they can’t sustainably\* spend more than they earn. So, the sum of these will approach, but generally be less than, annual miner revenue — aka the annual security budget:
 
 annual hardware cost + annual operating cost ≤ annual security budget
 
@@ -148,7 +212,7 @@ The result of all of this is that, if the protocol spends $365M/year on miners i
 
 ### The Attack
 
-The cost to attack will vary somewhat depending on how long the hardware refresh period is. Suppose miners spend $300M/year on hardware, $65M/year ($178K/day) on operating costs, and hardware has a 3 year useful lifespan.
+The cost to attack will vary somewhat depending on how long the hardware refresh period is. Suppose miners spend $300M/year on hardware, $65M/year (\$178K/day) on operating costs, and hardware has a 3 year useful lifespan.
 
 This means at any given time there is $900M worth of hardware mining, and it’s burning $178K/day. So, to attack the network we must spend $900M on ASICs and $178K/day.
 
@@ -156,11 +220,11 @@ This means at any given time there is $900M worth of hardware mining, and it’s
 
 The community anticipates our attack. How can they prevent it? Once again, all they can do is increase the security budget.
 
-The network doubles the security budget to $2M/day. New miners buy ASICs and start mining, hash power increases, and after some time a new equilibrium is reached.
+The network doubles the security budget to \$2M/day. New miners buy ASICs and start mining, hash power increases, and after some time a new equilibrium is reached.
 
 The ratio of hardware spend to operational spend should stay roughly the same so now we can expect to spend twice as much on ASICs and twice as much per day to attack.
 
-And, just like before this works the other way too. If the security budget were halved to $500K/day, and equilibrium were reached, we could expect to spend half as much on ASICs and half as much per day to attack.
+And, just like before this works the other way too. If the security budget were halved to \$500K/day, and equilibrium were reached, we could expect to spend half as much on ASICs and half as much per day to attack.
 
 ### Security Budget (Still) Determines Security
 

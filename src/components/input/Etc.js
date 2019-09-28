@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Ideas = () => (
-  <div className="ideas-container">
+const Etc = () => (
+  <div className="etc-container">
     <h3>The Simulation</h3>
     <h3>The Superman</h3>
   </div>
 );
 
-export default Ideas;
+export default Etc;

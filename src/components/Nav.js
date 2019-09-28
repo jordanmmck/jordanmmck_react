@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <div className="nav-container">
-    <NavLink to="/inspiration" activeClassName="is-active">
-      inspiration
+    <NavLink to="/in" activeClassName="is-active">
+      input
     </NavLink>
-    <NavLink to="/writing" activeClassName="is-active">
-      writing
+    <NavLink to="/out" activeClassName="is-active">
+      output
     </NavLink>
-    <NavLink to="/about" activeClassName="is-active">
-      about
+    <NavLink to="/self" activeClassName="is-active">
+      self
     </NavLink>
   </div>
 );

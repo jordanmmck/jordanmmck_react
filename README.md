@@ -2,20 +2,17 @@
 
 ## To Do
 
+- [ ] change to input/output/self w/ urls: in/ out/ self/
 - [ ] components
-  - [ ] change to input/output/self w/ urls: in/ out/ self/
   - [ ] movies component
   - [ ] books component
   - [ ] videos component (maps of meaning, feynman)
   - [ ] etc component (quotes, artwork)
 - [ ] posts should be expandable
+- [ ] dark mode
 - [ ] lazy load pictures?
 - [ ] make bundle.js smaller
 - [ ] deploy onto DO
-
-## Features
-
-- dark mode
 
 ## Content Map
 

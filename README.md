@@ -2,10 +2,16 @@
 
 ## To Do
 
-- get code blocks rendering with fira code? ligatures anyway
-- styling
-- lazy loading? make bundle.js smaller
-- deploy onto DO
+- [ ] components
+  - [ ] change to input/output/self w/ urls: in/ out/ self/
+  - [ ] movies component
+  - [ ] books component
+  - [ ] videos component (maps of meaning, feynman)
+  - [ ] etc component (quotes, artwork)
+- [ ] posts should be expandable
+- [ ] lazy load pictures?
+- [ ] make bundle.js smaller
+- [ ] deploy onto DO
 
 ## Features
 
@@ -13,37 +19,41 @@
 
 ## Content Map
 
-- INPUT
-  - PEOPLE
-    - Nietzsche
-    - Kubrick
-    - Feynman
-  - MOVIES
-    - 2001: A Space Odyssey
-    - A Clockwork Orange
-    - Princess Mononoke
-    - Spirited Away
-    - Enter The Void
-  - WRITING
-    - Thus Spoke Zarathustra
-    - Superintelligence
-    - Siddhartha
-    - GEB
-  - VIDEO
-    - Maps of Meaning
-    - Feynman - Fun to Imagine
-    - Feynman - Messenger Lectures
-- OUTPUT
-  - LONG
-    - Bitcoin Security: A Negative Exponential
-    - Cryptocurrencies as Abstract Lifeforms
-    - The Future of Space Exploration
-    - God, Kubrick, and Alien Life
-  - SHORT
-    - Biology as Alien Technology
-    - Importance of Free Speech
-- SELF
-  - History/About
-  - Pictures
-  - Interests/Goals/ETH address
-  - Values?
+### Input
+
+- Movies
+  - 2001: A Space Odyssey
+  - A Clockwork Orange
+  - Princess Mononoke
+  - Spirited Away
+  - Enter The Void
+- Books
+  - Thus Spoke Zarathustra
+  - Superintelligence
+  - Siddhartha
+  - GEB
+- Videos
+  - Maps of Meaning
+  - Feynman - Fun to Imagine
+  - Feynman - Messenger Lectures
+- Etc
+  - Quotes ("I love mankind...", "Man is something that should be overcome...")
+  - Art?
+
+### Output
+
+- Long
+  - Bitcoin Security: A Negative Exponential
+  - Cryptocurrencies as Abstract Lifeforms
+  - The Future of Space Exploration
+  - God, Kubrick, and Alien Life
+- Short
+  - Biology as Alien Technology
+  - Importance of Free Speech
+
+### Self
+
+- History/About
+- Pictures
+- Goals/interests/drives
+- ETH address, socials

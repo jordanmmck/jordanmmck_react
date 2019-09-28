@@ -51,16 +51,15 @@
     text-decoration: none;
   }
   p > img {
-    width: 110.1%;
+    width: calc(100% + 4rem);
     border-radius: 3px;
-    margin-left: 50%;
-    transform: translate(-50%);
+    transform: translate(-2rem);
   }
   blockquote {
     color: lighten($off-black, 20%);
     background: darken($pale-purple, 2%);
     font-style: italic;
-    margin: 2rem 1rem;
+    margin: 2rem 0rem;
     padding: 1rem;
   }
   blockquote > p {

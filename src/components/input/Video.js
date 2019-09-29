@@ -1,14 +1,14 @@
 import React from 'react';
 
 const Video = props => {
-  const { cover, title, director, content } = props.source;
+  const { title, author, ytLink, content } = props.source;
   return (
     <div className="video-container">
       <div className="youtube-container">
         <iframe
           width="560"
-          height="349"
-          src="https://www.youtube.com/embed/tE67Ye91Ii0"
+          height="315"
+          src={`https://www.youtube.com/embed/${ytLink}`}
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
@@ -16,6 +16,7 @@ const Video = props => {
       </div>
       <div className="title-container">
         <div className="title">{title}</div>
+        <div className="subtitle">{`- ${author}`}</div>
       </div>
       <div>
         <p>{content}</p>

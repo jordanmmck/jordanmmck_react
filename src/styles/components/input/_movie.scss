@@ -3,24 +3,34 @@
   background: darken($pale-purple, 5%);
   color: $off-black;
   display: flex;
-  padding: 0.5rem;
+  flex-direction: column;
+  padding: 1rem;
   margin-bottom: 1rem;
   max-width: $post-width;
   border-radius: 3px;
-  h1 {
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-family: 'Noto Serif';
     padding: 0;
     margin: 0;
-    font-size: 1.6rem;
-  }
-  h2 {
-    color: lighten($off-black, 15%);
-    padding: 0.25rem 0 0.25rem 0rem;
-    font-size: 1.1rem;
-    margin: 0;
+    .title {
+      padding: 0;
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    .subtitle {
+      color: lighten($off-black, 20%);
+      font-size: 1.5rem;
+      padding: 0;
+      padding-left: 0.5rem;
+      margin: 0;
+    }
   }
   img {
-    height: 160px;
+    height: auto;
+    width: 100%;
     margin: 0 1rem 1rem 0;
     border-radius: 3px;
   }

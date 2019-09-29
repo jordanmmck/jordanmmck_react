@@ -1,10 +1,11 @@
 import React from 'react';
+import Book from './Book';
+import geb from '../../../documents/books/geb.json';
 
 const Books = () => (
   <div className="books-container">
-    <h3>Thus Spoke Zarathustra</h3>
-    <h3>Gödel, Escher, Bach: An Eternal Golden Braid</h3>
-    <h3>Siddhartha</h3>
+    <Book source={geb} />
+    <Book source={geb} />
   </div>
 );
 

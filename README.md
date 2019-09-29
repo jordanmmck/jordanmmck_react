@@ -2,7 +2,10 @@
 
 ## To Do
 
-- [ ] change to input/output/self w/ urls: in/ out/ self/
+- put fonts, font size, font color, etc. into global base body or something
+- make generic container that every page will go in with standard padding, etc.
+- learn more css
+
 - [ ] components
   - [ ] movies component
   - [ ] books component

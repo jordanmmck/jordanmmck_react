@@ -39,10 +39,16 @@
   - Feynman - Fun to Imagine
   - Feynman - Messenger Lectures
 - Etc
-  - Quotes
+  - Nietzsche
+    - portrait
+    - wanderer
     - "I love mankind..."
     - "Man is something that should be overcome..."
-  - Art?
+  - Kubrick
+    - portrait, quotes
+  - Feynman
+    - portrait, quotes
+  - Art
 
 ### Output
 

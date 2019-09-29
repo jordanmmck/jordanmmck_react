@@ -15,7 +15,7 @@ const Video = props => {
         ></iframe>
       </div>
       <div className="title-container">
-        <div className="title">{title}</div>
+        {title && <div className="title">{title}</div>}
         {author && <div className="subtitle">{`- ${author}`}</div>}
       </div>
       <div>

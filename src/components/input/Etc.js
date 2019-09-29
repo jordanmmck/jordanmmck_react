@@ -1,9 +1,13 @@
 import React from 'react';
+import Nietzsche from './etc/Nietzsche';
+import Kubrick from './etc/Kubrick';
+import Feynman from './etc/Feynman';
 
 const Etc = () => (
   <div className="etc-container">
-    <h3>The Simulation</h3>
-    <h3>The Superman</h3>
+    <Nietzsche />
+    <Kubrick />
+    <Feynman />
   </div>
 );
 

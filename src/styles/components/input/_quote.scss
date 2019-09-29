@@ -1,0 +1,40 @@
+.quote-container {
+  font-family: 'Merriweather';
+  background: darken($pale-purple, 5%);
+  color: $off-black;
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  max-width: $post-width;
+  border-radius: 3px;
+  .image-container {
+    width: 50%;
+    margin: 0 1rem 1rem 0;
+    img {
+      height: auto;
+      width: 100%;
+      border-radius: 3px;
+    }
+  }
+  .text-container {
+    width: 50%;
+    .quote {
+      font-size: 1.2rem;
+    }
+    .author {
+      color: lighten($off-black, 15%);
+      font-size: 1.1rem;
+      padding: 1rem;
+    }
+    .comments {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      white-space: pre-wrap;
+      line-height: 1.6rem;
+      padding: 0;
+      margin: 0.5rem 0 0 0;
+    }
+  }
+}

@@ -7,9 +7,11 @@
 - learn more css
 
 - [ ] components
-  - [ ] movies component
+  - [x] movies component
   - [ ] books component
+    - [ ] uniform width book covers
   - [ ] videos component (maps of meaning, feynman)
+    - [ ] get playlists working
   - [ ] etc component (quotes, artwork)
 - [ ] posts should be expandable
 - [ ] dark mode
@@ -37,7 +39,9 @@
   - Feynman - Fun to Imagine
   - Feynman - Messenger Lectures
 - Etc
-  - Quotes ("I love mankind...", "Man is something that should be overcome...")
+  - Quotes
+    - "I love mankind..."
+    - "Man is something that should be overcome..."
   - Art?
 
 ### Output

@@ -1,0 +1,34 @@
+.movie-container {
+  font-family: 'Merriweather';
+  background: darken($pale-purple, 5%);
+  color: $off-black;
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  max-width: $post-width;
+  border-radius: 3px;
+  h1 {
+    font-family: 'Noto Serif';
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+  }
+  h2 {
+    color: lighten($off-black, 15%);
+    padding: 0.25rem 0 0.25rem 0rem;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  img {
+    height: 160px;
+    margin: 0 1rem 1rem 0;
+    border-radius: 3px;
+  }
+  p {
+    font-size: 1rem;
+    white-space: pre-wrap;
+    line-height: 1.6rem;
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+  }
+}

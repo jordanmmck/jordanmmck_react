@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactMarkdown, { renderers } from 'react-markdown';
 
 const Book = props => {
   const { cover, title, author, content } = props.source;

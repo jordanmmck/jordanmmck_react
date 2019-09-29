@@ -5,7 +5,7 @@ const Book = props => {
   const { cover, title, author, content } = props.source;
   return (
     <div className="book-container">
-      <img src={cover} alt="cover" />
+      <img src={cover} alt={`${title}-cover`} />
       <div>
         <h1>{title}</h1>
         <h2>{author}</h2>

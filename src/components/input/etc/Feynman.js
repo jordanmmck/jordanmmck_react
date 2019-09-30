@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Feynman = () => (
-  <div className="person-container">
+  <div className="feynman-container">
     <div className="portrait-container">
       <img src="/images/people/feynman-young.jpg" alt="" />
       <img src="/images/people/feynman-lecture-3.jpg" alt="" />

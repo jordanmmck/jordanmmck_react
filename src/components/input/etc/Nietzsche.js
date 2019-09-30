@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Nietzsche = () => (
-  <div className="person-container">
+  <div className="nietzsche-container">
     <div className="portrait-container">
       <img src="/images/people/nietzsche-close.jpg" alt="" />
       <img src="/images/people/nietzsche.jpg" alt="" />

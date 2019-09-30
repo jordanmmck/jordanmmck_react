@@ -5,8 +5,8 @@ import Feynman from './etc/Feynman';
 
 const Etc = () => (
   <div className="etc-container">
-    <Nietzsche />
     <Kubrick />
+    <Nietzsche />
     <Feynman />
   </div>
 );

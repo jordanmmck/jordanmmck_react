@@ -4,17 +4,17 @@
   color: $off-black;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
   max-width: $post-width;
   border-radius: 3px;
   .portrait-container {
     width: 40%;
-    margin: 0 1rem 1rem 0;
+    margin: 0 1.6rem 1.6rem 0;
     img {
       height: auto;
       width: 100%;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.8rem;
       border-radius: 3px;
     }
   }
@@ -23,11 +23,11 @@
     h1 {
       font-family: 'Noto Serif';
       padding: 0;
-      margin: 0 0 1rem 0;
+      margin: 0 0 1.6rem 0;
     }
     p {
-      font-size: 1.1rem;
-      line-height: 1.6rem;
+      font-size: 1.75rem;
+      line-height: 2.5rem;
       padding: 0;
       margin: 0;
     }

@@ -9,7 +9,7 @@
   border-radius: 3px;
   .image-container {
     width: 50%;
-    margin: 0 1rem 1rem 0;
+    margin: 0 1.6rem 1.6rem 0;
     img {
       height: auto;
       width: 100%;
@@ -19,22 +19,22 @@
   .text-container {
     width: 50%;
     .quote {
-      font-size: 1.2rem;
+      font-size: 1.9rem;
     }
     .author {
       color: lighten($off-black, 15%);
-      font-size: 1.1rem;
-      padding: 1rem;
+      font-size: 1.75rem;
+      padding: 1.6rem;
     }
     .comments {
-      font-size: 1rem;
+      font-size: 1.6rem;
     }
     p {
-      font-size: 1rem;
+      font-size: 1.6rem;
       white-space: pre-wrap;
-      line-height: 1.6rem;
+      line-height: 2.5rem;
       padding: 0;
-      margin: 0.5rem 0 0 0;
+      margin: 0.8rem 0 0 0;
     }
   }
 }

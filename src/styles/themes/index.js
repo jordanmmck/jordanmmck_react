@@ -1,1 +1,1 @@
-export { default as purple } from './shades-of-purple';
+export { default as purple } from './custom-purple';

@@ -5,7 +5,7 @@ import sample from '../../../documents/long/sample.md';
 import CodeBlock from './CodeBlock';
 
 const LongPost = () => (
-  <div className="post-container">
+  <div className="post">
     {/* <NavLink to="/output/long">BACK</NavLink> */}
     <ReactMarkdown source={sample} renderers={{ code: CodeBlock }}></ReactMarkdown>
   </div>

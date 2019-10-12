@@ -8,7 +8,7 @@ import LongPost from './output/LongPost';
 const Output = () => (
   <div>
     <SubNav parentLink="out" childLinks={['short', 'long']}></SubNav>
-    <div className="output-container">
+    <div className="output">
       <Switch>
         <Redirect exact path="/out" to="/out/long" />
         <Route exact path={`/out/long`} component={Long} />

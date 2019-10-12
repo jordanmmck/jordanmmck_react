@@ -1,6 +1,8 @@
-@import './base/settings';
 @import './base/base';
-@import './base/post';
+
+@import './utils/variables';
+
+@import './components/post';
 @import './components/header';
 @import './components/nav';
 @import './components/input';

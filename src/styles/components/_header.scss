@@ -1,12 +1,11 @@
-.header-container {
-  background: rgb(153, 189, 255);
-  h1 {
+.header {
+  background-color: $header;
+  &__title {
     font-family: 'Covered By Your Grace';
-    padding-left: $xl-size;
-    font-size: 3em;
+    padding-left: 7rem;
+    font-size: 5rem;
   }
   a {
     text-decoration: none;
-    color: black;
   }
 }

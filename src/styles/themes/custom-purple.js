@@ -35,15 +35,15 @@ export default {
     msHyphens: 'none',
     hyphens: 'none',
     padding: '1em',
-    margin: '2rem 2rem 0 2rem',
+    margin: '2.4rem 2.4rem 0 2.4rem',
     overflow: 'auto',
-    borderRadius: '0.3em',
+    borderRadius: '3px',
     background: '#2f2f33',
   },
   ':not(pre) > code[class*="language-"]': {
     background: '#2f2f33',
     padding: '.1em',
-    borderRadius: '.3em',
+    borderRadius: '3px',
   },
   comment: {
     color: '#6e6e6e',

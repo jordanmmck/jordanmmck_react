@@ -4,15 +4,15 @@
   color: $off-black;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
   max-width: $post-width;
   border-radius: 3px;
   h1 {
     font-family: 'Futura';
     font-weight: 200;
     text-align: center;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.8rem;
   }
   .portrait-container {
     display: flex;
@@ -20,8 +20,8 @@
     justify-content: space-around;
     width: 100%;
     img {
-      height: 230px;
-      margin-bottom: 0.5rem;
+      height: 23rem;
+      margin-bottom: 0.8rem;
     }
   }
   .movies-container {

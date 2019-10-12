@@ -4,8 +4,8 @@
   color: $off-black;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
-  margin-bottom: 1rem;
+  padding: 1.6rem;
+  margin-bottom: 1.6rem;
   max-width: $post-width;
   border-radius: 3px;
   .youtube-container {
@@ -29,31 +29,31 @@
     font-family: 'Noto Serif';
     padding: 0;
     margin: 0;
-    padding-top: 0.5rem;
+    padding-top: 0.8rem;
     .title {
       padding: 0;
       margin: 0;
-      font-size: 1.5rem;
+      font-size: 2.4rem;
     }
     .subtitle {
       color: lighten($off-black, 20%);
-      font-size: 1.5rem;
+      font-size: 2.4rem;
       padding: 0;
-      padding-left: 0.5rem;
+      padding-left: 0.8rem;
       margin: 0;
     }
   }
   img {
     height: auto;
     width: 100%;
-    margin: 0 1rem 1rem 0;
+    margin: 0 1.6rem 1.6rem 0;
     border-radius: 3px;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.6rem;
     white-space: pre-wrap;
-    line-height: 1.6rem;
+    line-height: 2.5rem;
     padding: 0;
-    margin: 0.5rem 0 0 0;
+    margin: 0.8rem 0 0 0;
   }
 }

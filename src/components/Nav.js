@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <div className="nav-container">
+  <div className="nav">
     <NavLink to="/in" activeClassName="is-active">
       input
     </NavLink>

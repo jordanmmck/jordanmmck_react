@@ -1,44 +1,36 @@
-.movie-container {
-  font-family: 'Merriweather';
-  background: darken($pale-purple, 5%);
-  color: $off-black;
+.movie {
   display: flex;
   flex-direction: column;
-  padding: 1.6rem;
-  margin-bottom: 1.6rem;
+  font-family: $card-content-font;
+  background: darken($post-primary, 5%);
+  padding: $small-gap;
+  margin-bottom: $small-gap;
   max-width: $post-width;
   border-radius: 3px;
-  .title-container {
+  &__cover {
+    img {
+      height: auto;
+      width: 100%;
+      border-radius: 3px;
+    }
+  }
+  &__header {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    font-family: 'Noto Serif';
-    padding: 0;
-    margin: 0;
-    .title {
-      padding: 0;
-      margin: 0;
-      font-size: 2.4rem;
-    }
-    .subtitle {
-      color: lighten($off-black, 20%);
-      font-size: 2.4rem;
-      padding: 0;
-      padding-left: 0.8rem;
-      margin: 0;
-    }
+    font-family: $card-header-font;
+    margin: $small-gap;
   }
-  img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 0.8rem;
-    border-radius: 3px;
+  &__title {
+    font-size: $card-title;
   }
-  p {
-    font-size: 1.6rem;
+  &__director {
+    color: $card-subtitle;
+    font-size: $card-title;
+    padding-left: 1rem;
+  }
+  &__content {
+    font-size: $card-font-size;
+    line-height: $card-line-height;
     white-space: pre-wrap;
-    line-height: 2.5rem;
-    padding: 0;
-    margin: 0.8rem 0 0 0;
   }
 }

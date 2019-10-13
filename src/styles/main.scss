@@ -1,8 +1,9 @@
-@import './base/base';
-
 @import './utils/variables';
 
+@import './base/base';
+
 @import './components/post';
+@import './components/container';
 @import './components/header';
 @import './components/nav';
 @import './components/input';
@@ -11,13 +12,9 @@
 @import './components/not-found';
 @import './components/footer';
 @import './components/sub-nav';
-@import './components/input/movies';
 @import './components/input/movie';
-@import './components/input/books';
 @import './components/input/book';
-@import './components/input/videos';
 @import './components/input/video';
-@import './components/input/etc';
 @import './components/input/people/nietzsche';
 @import './components/input/people/kubrick';
 @import './components/input/people/feynman';

@@ -3,16 +3,16 @@ import React from 'react';
 const Movie = props => {
   const { cover, title, director, content } = props.source;
   return (
-    <div className="movie-container">
-      <div className="image-container">
-        <img src={cover} alt={`${title} cover`} />
+    <div className="movie">
+      <div className="movie__cover">
+        <img src={cover} alt={title} />
       </div>
-      <div className="title-container">
-        <div className="title">{title}</div>
-        <div className="subtitle">{`— ${director}`}</div>
+      <div className="movie__header">
+        <h2 className="movie__title">{title}</h2>
+        <h2 className="movie__director">{`— ${director}`}</h2>
       </div>
       <div>
-        <p>{content}</p>
+        <p className="movie__content">{content}</p>
       </div>
     </div>
   );

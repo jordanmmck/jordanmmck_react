@@ -1,35 +1,38 @@
-.feynman-container {
-  font-family: 'Merriweather';
-  background: darken($pale-purple, 5%);
-  color: $off-black;
+.feynman {
+  font-family: $card-content-font;
+  background: $card-primary;
   display: flex;
   flex-direction: row;
-  padding: 1.6rem;
-  margin-bottom: 1.6rem;
+  padding: $small-gap;
+  margin-bottom: $small-gap;
   max-width: $post-width;
   border-radius: 3px;
-  .portrait-container {
+  &__portrait {
+    display: flex;
+    flex-direction: column;
     width: 40%;
-    margin: 0 1.6rem 1.6rem 0;
+    margin-right: $small-gap;
     img {
       height: auto;
       width: 100%;
-      margin-bottom: 0.8rem;
-      border-radius: 3px;
+    }
+    &--1 {
+      margin-bottom: $small-gap;
+    }
+    &--2 {
+      margin-bottom: $small-gap;
     }
   }
-  .text-container {
+  &__body {
     width: 60%;
-    h1 {
-      font-family: 'Noto Serif';
-      padding: 0;
-      margin: 0 0 1.6rem 0;
+    .feynman__title {
+      font-family: $card-header-font;
+      font-size: 3.5rem;
+      margin-bottom: $small-gap;
     }
-    p {
-      font-size: 1.75rem;
-      line-height: 2.5rem;
-      padding: 0;
-      margin: 0;
+    .feynman__text {
+      font-size: $card-font-size;
+      line-height: $card-line-height;
     }
   }
 }

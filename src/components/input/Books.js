@@ -7,7 +7,7 @@ import superintelligence from '../../../documents/books/superintelligence.json';
 import zarathustra from '../../../documents/books/zarathustra.json';
 
 const Books = () => (
-  <div className="books-container">
+  <div className="container">
     <Book source={zarathustra} />
     <Book source={geb} />
     <Book source={siddhartha} />

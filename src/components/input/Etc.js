@@ -4,9 +4,9 @@ import Kubrick from './etc/Kubrick';
 import Feynman from './etc/Feynman';
 
 const Etc = () => (
-  <div className="etc-container">
-    <Kubrick />
+  <div className="container">
     <Nietzsche />
+    <Kubrick />
     <Feynman />
   </div>
 );

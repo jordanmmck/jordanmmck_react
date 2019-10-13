@@ -3,7 +3,7 @@ import Movie from './Movie';
 import spaceOdyssey from '../../../documents/movies/spaceOdyssey.json';
 
 const Movies = () => (
-  <div className="movies-container">
+  <div className="container">
     <Movie source={spaceOdyssey} />
     <Movie source={spaceOdyssey} />
   </div>

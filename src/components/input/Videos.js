@@ -4,7 +4,7 @@ import mapsOfMeaning from '../../../documents/videos/mapsOfMeaning.json';
 import nietzsche from '../../../documents/videos/nietzsche.json';
 
 const Videos = () => (
-  <div className="videos-container">
+  <div className="container">
     <Video source={nietzsche} />
     <Video source={mapsOfMeaning} />
   </div>

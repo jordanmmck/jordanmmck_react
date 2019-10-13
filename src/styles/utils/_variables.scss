@@ -4,31 +4,50 @@ $m-size: 2.5rem;
 $l-size: 5.1rem;
 $xl-size: 7.6rem;
 
+// SPACING
 $small-gap: 1.2rem;
 $standard-gap: 2.4rem;
 $large-gap: 4.8rem;
 
-$font-size: 1.6rem;
+$card-title: 2.4rem;
+$card-line-height: 2.6rem;
+$card-font-size: 1.6rem;
+$card-header-font: 'Noto Serif';
+$card-content-font: 'Merriweather';
+
+$post-font-size: 1.7rem;
 $post-margin: 2rem;
 $post-body-margin: 3.2rem;
-
+$post-line-height: 3.3rem;
 $post-width: 70rem;
-$desktop-breakpoint: 45rem;
 
-$line-height: 3.3rem;
+$desktop-breakpoint: 45rem;
 
 // COLORS
 $header: rgb(153, 189, 255);
 $footer: rgb(255, 189, 255);
+
 $main-nav: lavender;
+$sub-nav: pink;
+
 $off-black: rgb(39, 39, 39);
+
 $post-primary: rgb(245, 245, 255);
 $post-secondary: darken($post-primary, 5%);
+
+$card-primary: darken($post-primary, 5%);
+$card-subtitle: lighten($off-black, 15%);
+
+$shadow: 0 1rem 1rem rgba(black, 0.1);
+
+$book-background: darken($post-primary, 5%);
+
 $main-nav-hover: darken($main-nav, 5%);
 $main-nav-active: darken($main-nav, 10%);
+
 $quotation: lighten($off-black, 20%);
 $quotation-attribution: lighten($off-black, 35%);
 $quotation-box: darken($post-primary, 2%);
-$sub-nav: pink;
+
 $pale-purple: pink;
 $inline-code: rgb(237, 220, 255);

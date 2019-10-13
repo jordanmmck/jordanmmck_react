@@ -1,41 +1,35 @@
-.book-container {
-  font-family: 'Merriweather';
-  background: darken($pale-purple, 5%);
-  color: $off-black;
+.book {
   display: flex;
-  padding: 0.8rem;
-  margin-bottom: 1.6rem;
+  font-family: $card-content-font;
+  background: $card-primary;
+  padding: $small-gap;
+  margin-bottom: $small-gap;
   max-width: $post-width;
   border-radius: 3px;
-  h1 {
-    font-family: 'Noto Serif';
-    padding: 0;
-    margin: 0;
-    font-size: 2.6rem;
+  &__cover {
+    width: 18%;
+    margin-right: 1.6rem;
+    img {
+      height: auto;
+      width: 100%;
+      border-radius: 3px;
+    }
   }
-  h2 {
-    color: lighten($off-black, 15%);
-    padding: 0.4rem 0 0.4rem 0rem;
-    font-size: 1.75rem;
-    margin: 0;
-  }
-  .image-container {
-    width: 20%;
-    margin: 0 1.6rem 1.6rem 0;
-  }
-  img {
-    height: auto;
-    width: 100%;
-    border-radius: 3px;
-  }
-  .text-container {
-    width: 80%;
-  }
-  p {
-    font-size: 1.6rem;
-    white-space: pre-wrap;
-    line-height: 2.5rem;
-    padding: 0;
-    margin: 0.8rem 0 0 0;
+  &__body {
+    width: 82%;
+    .book__title {
+      font-family: $card-header-font;
+      font-size: 2.6rem;
+    }
+    .book__author {
+      color: $card-subtitle;
+      padding-top: 0.5rem;
+      padding-bottom: $small-gap;
+      font-size: 1.75rem;
+    }
+    .book__text {
+      white-space: pre-wrap;
+      line-height: $card-line-height;
+    }
   }
 }

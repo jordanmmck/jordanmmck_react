@@ -38,8 +38,8 @@
     font-size: 2.1rem;
   }
   p {
-    font-size: 1.7rem;
-    line-height: $line-height;
+    font-size: $post-font-size;
+    line-height: $post-line-height;
     margin: $standard-gap;
     margin-bottom: 0;
   }
@@ -84,7 +84,7 @@
     transform: translateX(4rem);
     padding-bottom: $small-gap;
     padding-top: $small-gap;
-    line-height: $line-height;
+    line-height: $post-line-height;
   }
   // quote attribution dash
   blockquote > ul > li:before {

@@ -1,30 +1,30 @@
-.kubrick-container {
-  font-family: 'Merriweather';
-  background: darken($pale-purple, 5%);
-  color: $off-black;
+.kubrick {
+  font-family: $card-content-font;
+  background: $card-primary;
   display: flex;
   flex-direction: column;
-  padding: 1.6rem;
-  margin-bottom: 1.6rem;
+  padding: $small-gap;
+  margin-bottom: $small-gap;
   max-width: $post-width;
   border-radius: 3px;
-  h1 {
+  &__title {
     font-family: 'Futura';
     font-weight: 200;
     text-align: center;
-    letter-spacing: 0.8rem;
+    letter-spacing: 1rem;
+    margin-bottom: $small-gap;
   }
-  .portrait-container {
+  &__portrait {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
+    margin-bottom: $small-gap;
     img {
       height: 23rem;
-      margin-bottom: 0.8rem;
     }
   }
-  .movies-container {
+  &__movies {
     img {
       width: 100%;
       height: auto;

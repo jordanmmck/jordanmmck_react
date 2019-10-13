@@ -9,9 +9,10 @@
   border-radius: 3px;
   &__title {
     font-family: 'Futura';
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
-    letter-spacing: 1rem;
+    letter-spacing: 2rem;
+    font-size: 3rem;
     margin-bottom: $small-gap;
   }
   &__portrait {

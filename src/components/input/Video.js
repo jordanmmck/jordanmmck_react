@@ -16,7 +16,7 @@ const Video = props => {
       </div>
       <div className="video__header">
         {title && <div>{title}</div>}
-        {author && <div className="video__subtitle">{`- ${author}`}</div>}
+        {author && <div className="video__subtitle">{`— ${author}`}</div>}
       </div>
       <div>
         <p className="video__content">{content}</p>

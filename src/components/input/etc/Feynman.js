@@ -15,7 +15,18 @@ const Feynman = () => (
         great tide, and return to the animals rather than overcome man? Man is something that should
         be overcome. What have you done to overcome him? All creatures hitherto have created
         something beyond themselves: and do you want to be the ebb of this great tide, and return to
-        the animals rather than overcome man?
+        the animals rather than overcome man? Man is something that should be overcome. What have
+        you done to overcome him? All creatures hitherto have created something beyond themselves:
+        and do you want to be the ebb of this great tide, and return to the animals rather than
+        overcome man? Man is something that should be overcome. What have you done to overcome him?
+        All creatures hitherto have created something beyond themselves: and do you want to be the
+        ebb of this great tide, and return to the animals rather than overcome man? Man is something
+        that should be overcome. What have you done to overcome him? All creatures hitherto have
+        created something beyond themselves: and do you want to be the ebb of this great tide, and
+        return to the animals rather than overcome man? Man is something that should be overcome.
+        What have you done to overcome him? All creatures hitherto have created something beyond
+        themselves: and do you want to be the ebb of this great tide, and return to the animals
+        rather than overcome man?
       </p>
     </div>
   </div>

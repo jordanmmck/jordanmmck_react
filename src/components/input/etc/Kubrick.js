@@ -9,7 +9,14 @@ const Kubrick = () => (
       <img src="/images/people/kubrick-young.jpg" alt="" />
     </div>
     <div className="kubrick__movies">
-      <img src="/images/movies/spaceOdyssey-wide.jpg" alt="" />
+      <img src="/images/movies/lolita/lolita-20-wide.png" alt="" />
+      <img src="/images/movies/strangelove/strangelove-15-wide.png" alt="" />
+      <img src="/images/movies/2001/2001-38-wide.png" alt="" />
+      <img src="/images/movies/clockwork/clockwork-61-wide.png" alt="" />
+      <img src="/images/movies/barryLyndon/barryLyndon-34-wide.png" alt="" />
+      <img src="/images/movies/shining/shining-7-wide.png" alt="" />
+      <img src="/images/movies/fullMetalJacket/fullMetalJacket-15-wide.png" alt="" />
+      <img src="/images/movies/eyesWideShut/eyesWideShut-4-wide.png" alt="" />
     </div>
   </div>
 );

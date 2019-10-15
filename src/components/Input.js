@@ -4,17 +4,17 @@ import SubNav from './SubNav';
 import Movies from './input/Movies';
 import Books from './input/Books';
 import Videos from './input/Videos';
-import Etc from './input/Etc';
+import People from './input/People';
 
 const Input = () => (
   <div className="input">
-    <SubNav parentLink="in" childLinks={['movies', 'books', 'videos', 'etc']}></SubNav>
+    <SubNav parentLink="in" childLinks={['movies', 'books', 'videos', 'people']}></SubNav>
     <Switch>
       <Redirect exact path="/in" to="/in/movies" />
       <Route path={`/in/movies`} component={Movies} />
       <Route path={`/in/books`} component={Books} />
       <Route path={`/in/videos`} component={Videos} />
-      <Route path={`/in/etc`} component={Etc} />
+      <Route path={`/in/people`} component={People} />
     </Switch>
   </div>
 );

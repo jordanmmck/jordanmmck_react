@@ -37,10 +37,10 @@ const Movies = () => (
     <Movie source={primer} />
     {/* <Movie source={killBill1} /> */}
     <Movie source={killBill2} />
-    <Movie source={alphaGo} />
+    {/* <Movie source={alphaGo} />
     <Movie source={freeSolo} />
     <Movie source={jiro} />
-    <Movie source={senna} />
+    <Movie source={senna} /> */}
   </div>
 );
 

@@ -2,18 +2,7 @@
 
 ## To Do
 
-- put fonts, font size, font color, etc. into global base body or something
-- make generic container that every page will go in with standard padding, etc.
-- learn more css
-- abstract card stuff into a card css class
-
-- [ ] components
-  - [x] movies component
-  - [ ] books component
-    - [ ] uniform width book covers
-  - [ ] videos component (maps of meaning, feynman)
-    - [ ] get playlists working
-  - [ ] etc component (quotes, artwork)
+- [ ] youtube playlists
 - [ ] posts should be expandable
 - [ ] dark mode
 - [ ] lazy load pictures?
@@ -25,31 +14,24 @@
 ### Input
 
 - Movies
-  - 2001: A Space Odyssey
-  - A Clockwork Orange
-  - Princess Mononoke
-  - Spirited Away
-  - Enter The Void
 - Books
-  - Thus Spoke Zarathustra
-  - Superintelligence
-  - Siddhartha
-  - GEB
-- Videos
-  - Maps of Meaning
-  - Feynman - Fun to Imagine
-  - Feynman - Messenger Lectures
-- Etc
+- People
   - Nietzsche
-    - portrait
-    - wanderer
-    - "I love mankind..."
-    - "Man is something that should be overcome..."
   - Kubrick
-    - portrait, quotes
   - Feynman
-    - portrait, quotes
-  - Art
+  - Goggins?
+  - Eric Weinstein?
+- Philosophy/Ideas
+  - maps of meaning
+  - quotes from untethered soul?
+  - bunch of Academy of Ideas videos
+  - bunch of Nietzsche
+  - Jordan Hall stuff
+  - Naval, Bret + JP, etc. podcast episodes?
+  - philosophy cards? "on meaning", "on contemplating death"?
+- Art
+  - images of art
+  - music videos? Aphex Twin, Pursuit, classical?
 
 ### Output
 

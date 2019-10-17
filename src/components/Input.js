@@ -4,6 +4,7 @@ import Movies from './input/Movies';
 import Books from './input/Books';
 import Videos from './input/Videos';
 import People from './input/People';
+import Arts from './input/Arts';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 const Input = () => (
@@ -18,7 +19,7 @@ const Input = () => (
       <Route path={`/in/books`} component={Books} />
       <Route path={`/in/philosophy`} component={Videos} />
       <Route path={`/in/people`} component={People} />
-      <Route path={`/in/art`} component={People} />
+      <Route path={`/in/art`} component={Arts} />
     </Switch>
   </div>
 );

@@ -43,6 +43,8 @@
 - Short
   - Biology as Alien Technology
   - Importance of Free Speech
+- Notes?
+  - solved algorithm problems?
 
 ### Self
 

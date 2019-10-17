@@ -7,6 +7,7 @@ import superintelligence from '../../../documents/books/superintelligence.json';
 import zarathustra from '../../../documents/books/zarathustra.json';
 import mrFeynman from '../../../documents/books/mrFeynman.json';
 import laws from '../../../documents/books/laws.json';
+import crime from '../../../documents/books/crime.json';
 import doors from '../../../documents/books/doors.json';
 import untethered from '../../../documents/books/untethered.json';
 import powerOfNow from '../../../documents/books/powerOfNow.json';
@@ -21,6 +22,7 @@ const Books = () => (
     <Book source={mrFeynman} />
     <Book source={laws} />
     <Book source={doors} />
+    <Book source={crime} />
     <Book source={untethered} />
     <Book source={powerOfNow} />
   </div>

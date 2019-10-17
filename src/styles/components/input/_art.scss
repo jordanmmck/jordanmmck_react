@@ -1,0 +1,30 @@
+.art {
+  display: flex;
+  flex-direction: column;
+  background: $card-primary;
+  padding: $small-gap;
+  margin-bottom: $small-gap;
+  max-width: $art-width;
+  &__cover {
+    width: 100%;
+    img {
+      height: auto;
+      width: 100%;
+      border-radius: 3px;
+    }
+  }
+  &__body {
+    display: flex;
+    justify-content: center;
+    font-family: $card-header-font;
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+  }
+  &__title {
+    color: lighten($off-black, 10%);
+    // padding-left: 1rem;
+  }
+  &__artist {
+    color: $off-black;
+  }
+}

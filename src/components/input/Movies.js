@@ -15,13 +15,14 @@ import reservoirDogs from '../../../documents/movies/reservoirDogs.json';
 import placeBeyondPines from '../../../documents/movies/placeBeyondPines.json';
 import spirited from '../../../documents/movies/spirited.json';
 import thereWillBeBlood from '../../../documents/movies/thereWillBeBlood.json';
+import theWall from '../../../documents/movies/theWall.json';
 
 const Movies = () => (
   <div className="container">
     <Movie source={spaceOdyssey} />
-    <Movie source={spirited} />
-    <Movie source={clockwork} />
     <Movie source={mononoke} />
+    <Movie source={clockwork} />
+    <Movie source={spirited} />
     <Movie source={intoTheWild} />
     <Movie source={barryLyndon} />
     <Movie source={boogieNights} />
@@ -33,6 +34,7 @@ const Movies = () => (
     <Movie source={primer} />
     <Movie source={killBill2} />
     <Movie source={placeBeyondPines} />
+    {/* <Movie source={theWall} /> */}
   </div>
 );
 

@@ -2,6 +2,7 @@
 
 ## To Do
 
+- [ ] use Grid + Flexbox?
 - [ ] youtube playlists
 - [ ] posts should be expandable
 - [ ] dark mode
@@ -14,6 +15,9 @@
 ### Input
 
 - Movies
+  - adaptation?
+  - social network?
+  - fight club?
 - Books
 - People
   - Nietzsche
@@ -23,11 +27,10 @@
   - Eric Weinstein?
 - Philosophy/Ideas
   - maps of meaning
-  - quotes from untethered soul?
+  - quotes from Untethered Soul?, Power of Now?
   - bunch of Academy of Ideas videos
   - bunch of Nietzsche
   - Jordan Hall stuff
-  - Naval, Bret + JP, etc. podcast episodes?
   - philosophy cards? "on meaning", "on contemplating death"?
 - Art
   - images of art
@@ -43,8 +46,10 @@
 - Short
   - Biology as Alien Technology
   - Importance of Free Speech
+  - Summary of Jordan Hall's ideas
 - Notes?
   - solved algorithm problems?
+  - all my notes?
 
 ### Self
 

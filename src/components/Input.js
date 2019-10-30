@@ -9,17 +9,14 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 const Input = () => (
   <div className="input">
-    <SubNav
-      parentLink="in"
-      childLinks={['movies', 'books', 'philosophy', 'people', 'art']}
-    ></SubNav>
+    <SubNav parentLink="in" childLinks={['art', 'people', 'movies', 'books', 'videos']}></SubNav>
     <Switch>
       <Redirect exact path="/in" to="/in/movies" />
+      <Route path={`/in/art`} component={Arts} />
+      <Route path={`/in/people`} component={People} />
       <Route path={`/in/movies`} component={Movies} />
       <Route path={`/in/books`} component={Books} />
-      <Route path={`/in/philosophy`} component={Videos} />
-      <Route path={`/in/people`} component={People} />
-      <Route path={`/in/art`} component={Arts} />
+      <Route path={`/in/videos`} component={Videos} />
     </Switch>
   </div>
 );

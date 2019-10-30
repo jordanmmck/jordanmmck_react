@@ -1,6 +1,6 @@
 .sub-nav-container {
   display: flex;
-  background: seashell;
+  background: $sub-nav;
   font-family: 'Open Sans';
   a {
     color: black;
@@ -10,9 +10,9 @@
     flex: 1;
   }
   a:hover {
-    background: darken(seashell, 10%);
+    background: darken($sub-nav, 10%);
   }
   .is-active {
-    background: darken(seashell, 5%);
+    background: darken($sub-nav, 5%);
   }
 }

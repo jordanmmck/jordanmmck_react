@@ -25,15 +25,15 @@ $art-width: 90rem;
 $desktop-breakpoint: 45rem;
 
 // COLORS
-$header: rgb(153, 189, 255);
-$footer: rgb(255, 189, 255);
+$header: rgb(32, 35, 41);
+$footer: rgb(32, 35, 41);
 
-$main-nav: lavender;
-$sub-nav: pink;
+$main-nav: rgb(56, 56, 56);
+$sub-nav: rgb(87, 87, 87);
 
 $off-black: rgb(39, 39, 39);
 
-$post-primary: rgb(245, 245, 255);
+$post-primary: rgb(241, 241, 241);
 $post-secondary: darken($post-primary, 5%);
 
 $card-primary: darken($post-primary, 5%);

@@ -2,24 +2,24 @@
 
 @import './base/base';
 
-@import './components/post';
+@import './components/input/input';
+@import './components/input/items/art';
+@import './components/input/items/book';
+@import './components/input/items/feynman';
+@import './components/input/items/kubrick';
+@import './components/input/items/movie';
+@import './components/input/items/nietzsche';
+@import './components/input/items/video';
+
+@import './components/output/output';
+@import './components/output/post';
+@import './components/output/notes';
+
+@import './components/self/self';
+
 @import './components/container';
+@import './components/footer';
 @import './components/header';
 @import './components/nav';
-@import './components/input';
-@import './components/output';
-@import './components/self';
 @import './components/not-found';
-@import './components/footer';
 @import './components/sub-nav';
-@import './components/input/movie';
-@import './components/input/book';
-@import './components/input/video';
-@import './components/input/people/nietzsche';
-@import './components/input/people/kubrick';
-@import './components/input/people/feynman';
-@import './components/input/art';
-@import './components/output/long';
-@import './components/output/short';
-@import './components/output/notes';
-@import './components/self';

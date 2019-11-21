@@ -4,11 +4,11 @@ import ReactMarkdown from 'react-markdown';
 import sample from '../../../documents/long/sample.md';
 import CodeBlock from './CodeBlock';
 
-const LongPost = () => (
+const Post = () => (
   <div className="post">
     {/* <NavLink to="/output/long">BACK</NavLink> */}
     <ReactMarkdown source={sample} renderers={{ code: CodeBlock }}></ReactMarkdown>
   </div>
 );
 
-export default LongPost;
+export default Post;

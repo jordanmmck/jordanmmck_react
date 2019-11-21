@@ -9,8 +9,8 @@ yarn dev
 
 ## To Do
 
-- [ ] side nav for Notes!
-- [ ] use Grid + Flexbox?
+- [ ] fix css: nest things better
+- [ ] side-nav for Notes!
 - [ ] youtube playlists
 - [ ] long posts should be expandable
 - [ ] dark mode

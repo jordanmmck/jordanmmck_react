@@ -1,5 +1,5 @@
 import React from 'react';
-import Movie from './Movie';
+import Movie from './items/Movie';
 import spaceOdyssey from '../../../documents/movies/spaceOdyssey.json';
 import barryLyndon from '../../../documents/movies/barryLyndon.json';
 import boogieNights from '../../../documents/movies/boogieNights.json';

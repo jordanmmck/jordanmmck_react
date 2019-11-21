@@ -1,5 +1,5 @@
 import React from 'react';
-import Book from './Book';
+import Book from './items/Book';
 import geb from '../../../documents/books/geb.json';
 import siddhartha from '../../../documents/books/siddhartha.json';
 import diaspora from '../../../documents/books/diaspora.json';

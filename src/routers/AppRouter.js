@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Header from '../components/Header';
-import Input from '../components/Input';
-import Output from '../components/Output';
-import Self from '../components/Self';
+import Input from '../components/input/Input';
+import Output from '../components/output/Output';
+import Self from '../components/self/Self';
 import Footer from '../components/Footer';
 import NotFoundPage from '../components/NotFoundPage';
 
@@ -12,8 +12,8 @@ const AppRouter = () => (
     <Header />
     <Switch>
       <Redirect exact path="/" to="out" />
-      <Route path="/in" component={Input} />
-      <Route path="/out" component={Output} />
+      <Route path="/i" component={Input} />
+      <Route path="/o" component={Output} />
       <Route path="/self" component={Self} />
       <Route component={NotFoundPage} />
     </Switch>

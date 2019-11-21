@@ -1,3 +1,112 @@
 .notes {
-  padding: $m-size;
+  display: flex;
+  flex-direction: row;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  background-color: sandybrown;
+}
+
+.note {
+  font-family: 'Merriweather';
+  color: $off-black;
+  background: $post-primary;
+  padding: $standard-gap;
+  margin: $standard-gap;
+  border-radius: 3px;
+  max-width: $post-width;
+  h1 {
+    font-family: 'Noto Serif';
+    background: $post-secondary;
+    font-size: 3.3rem;
+    line-height: 4.4rem;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    margin: 0;
+    border-radius: 3px;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Open Sans';
+    margin-top: $large-gap;
+    // pull headers closer to children paragraphs
+    margin-bottom: -1rem;
+    margin-left: $standard-gap;
+    margin-right: $standard-gap;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2.1rem;
+  }
+  p {
+    font-size: $post-font-size;
+    line-height: $post-line-height;
+    margin: $standard-gap;
+    margin-bottom: 0;
+  }
+  // inline code
+  p > code {
+    font-family: 'Fira Code', monospace;
+    background-color: $inline-code;
+    border-radius: 3px;
+    padding: 0.3rem 1rem;
+    margin: 0 0.5rem 0 0.1rem;
+    white-space: nowrap;
+  }
+  a {
+    color: darken($post-primary, 30%);
+  }
+  // images
+  p > img {
+    border-radius: 3px;
+    vertical-align: middle;
+    // overflow to match width of h1
+    // 2 * $standard-gap (but only works with literal)
+    width: calc(100% + 2 * 2.4rem);
+    transform: translate(-$standard-gap);
+  }
+  // quote container
+  blockquote {
+    color: $quotation;
+    background-color: $quotation-box;
+    font-style: italic;
+    border-radius: 3px;
+    margin: 0 $standard-gap;
+  }
+  // quote paragraph text
+  blockquote > p {
+    padding-top: $small-gap;
+  }
+  // quote attribution
+  blockquote > ul > li {
+    width: 80%;
+    color: $quotation-attribution;
+    list-style-type: none;
+    transform: translateX(4rem);
+    padding-bottom: $small-gap;
+    padding-top: $small-gap;
+    line-height: $post-line-height;
+  }
+  // quote attribution dash
+  blockquote > ul > li:before {
+    content: '⁠—';
+    color: $quotation-attribution;
+    font-style: normal;
+    margin-right: 0.5rem;
+  }
+  // page break line
+  hr {
+    border-top: 1px solid darken($post-primary, 10%);
+    margin-top: $standard-gap;
+  }
 }

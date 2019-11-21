@@ -1,1 +1,1 @@
-export { default as purple } from './custom-purple';
+export { default as purpleTheme } from './custom-purple';

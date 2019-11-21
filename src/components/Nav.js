@@ -3,10 +3,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <div className="nav">
-    <NavLink to="/in" activeClassName="is-active">
+    <NavLink to="/i" activeClassName="is-active">
       input
     </NavLink>
-    <NavLink to="/out" activeClassName="is-active">
+    <NavLink to="/o" activeClassName="is-active">
       output
     </NavLink>
     <NavLink to="/self" activeClassName="is-active">

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const SubNav = props => (
-  <div className="sub-nav-container">
+  <div className="sub-nav">
     {props.childLinks.map(childLink => {
       return (
         <NavLink

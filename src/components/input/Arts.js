@@ -1,5 +1,5 @@
 import React from 'react';
-import Art from './Art';
+import Art from './items/Art';
 
 const Arts = () => (
   <div className="container">

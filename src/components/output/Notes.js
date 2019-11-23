@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import sample from '../../../documents/long/sample.md';
+import sample from '../../../documents/notes/sample.md';
 import CodeBlock from './CodeBlock';
 import { NavLink } from 'react-router-dom';
 

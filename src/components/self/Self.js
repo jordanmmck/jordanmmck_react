@@ -1,14 +1,18 @@
 import React from 'react';
-import SubNav from '../SubNav';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
-const About = () => (
-  <div>
-    <SubNav parentLink="self" childLinks={['about', 'philosophy']}></SubNav>
-    <div className="self">
-      <h3>ABOUT</h3>
-      about me...
-    </div>
+const About = () => <div>about me...</div>;
+
+const Mission = () => <div>my mission...</div>;
+
+const Self = () => (
+  <div className="container">
+    <Switch>
+      <Redirect exact path="/s" to="/s/about" />
+      <Route path="/s/about" component={About} />
+      <Route path="/s/mission" component={Mission} />
+    </Switch>
   </div>
 );
 
-export default About;
+export default Self;

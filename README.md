@@ -16,7 +16,11 @@ yarn dev
 - [ ] dark mode
 - [ ] lazy load pictures?
 - [ ] make bundle.js smaller
-- [ ] deploy onto DO
+- [ ] deploy onto AWS
+
+## Design
+
+- simplicity, minimalism, less, less, less
 
 ### Side Nav
 
@@ -73,12 +77,6 @@ These should be concise and focused -- no pointless notes.
   - Cryptocurrencies as Abstract Lifeforms
   - The Future of Space Exploration
   - God, Kubrick, and Alien Life
-
-#### Code
-
-- Coding problems
-- projects
-- dev setup?
 
 ### self
 

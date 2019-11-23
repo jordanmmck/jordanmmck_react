@@ -7,7 +7,6 @@ const Header = () => (
     <NavLink to="/">
       <h1 className="header__title">JordanMMcK</h1>
     </NavLink>
-    <Nav />
   </header>
 );
 

@@ -6,7 +6,7 @@
 .side-nav {
   display: flex;
   flex-direction: column;
-  background-color: sandybrown;
+  background-color: grey;
 }
 
 .note {
@@ -14,7 +14,7 @@
   color: $off-black;
   background: $post-primary;
   padding: $standard-gap;
-  margin: $standard-gap;
+  margin: 0;
   border-radius: 3px;
   max-width: $post-width;
   h1 {

@@ -1,15 +1,28 @@
 .nav {
   display: flex;
+  flex-direction: column;
   background: $main-nav;
+  font-family: 'Open Sans';
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
   a {
-    padding: 1.5rem 0;
+    padding: $xs-size 0;
+    text-decoration: none;
     text-align: center;
     flex: 1;
   }
   a:hover {
-    background: $main-nav-hover;
+    background: darken($sub-nav, 10%);
   }
   .is-active {
-    background: $main-nav-active;
+    background: darken($sub-nav, 5%);
   }
 }

@@ -1,9 +1,10 @@
 .header {
   background-color: $header;
+  height: $header-height;
   &__title {
     font-family: 'Covered By Your Grace';
     padding-left: 7rem;
-    font-size: 5rem;
+    font-size: 4rem;
   }
   a {
     text-decoration: none;

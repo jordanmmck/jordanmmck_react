@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Switch, Route } from 'react-router-dom';
 
 const SubNav = props => (
-  <div className="nav__bottom">
+  <nav className="nav__bottom">
     {props.childLinks.map(childLink => {
       return (
         <NavLink
@@ -14,11 +14,11 @@ const SubNav = props => (
         </NavLink>
       );
     })}
-  </div>
+  </nav>
 );
 
 const Nav = () => (
-  <div className="nav">
+  <nav className="nav">
     <div className="nav__top">
       <NavLink to="/i" activeClassName="is-active">
         input
@@ -46,7 +46,7 @@ const Nav = () => (
         component={() => <SubNav parentLink={'s'} childLinks={['about', 'mission']} />}
       ></Route>
     </Switch>
-  </div>
+  </nav>
 );
 
 export default Nav;

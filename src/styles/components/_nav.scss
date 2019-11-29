@@ -1,8 +1,10 @@
 .nav {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background: $main-nav;
   font-family: 'Open Sans';
+  height: $nav-height;
   &__top {
     display: flex;
     flex-direction: row;
@@ -14,7 +16,7 @@
     justify-content: space-around;
   }
   a {
-    padding: $xs-size 0;
+    // padding: $xs-size 0;
     text-decoration: none;
     text-align: center;
     flex: 1;

@@ -1,0 +1,17 @@
+.side-nav-parent {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+
+  &__children {
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    padding-left: 1rem;
+  }
+  &__child {
+    a {
+      color: darkblue;
+    }
+  }
+}

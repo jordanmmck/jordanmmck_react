@@ -9,14 +9,19 @@ yarn dev
 
 ## To Do
 
-- [ ] fix css: nest things better
-- [ ] side-nav for Notes!
-- [ ] youtube playlists
-- [ ] long posts should be expandable
-- [ ] dark mode
-- [ ] lazy load pictures?
-- [ ] make bundle.js smaller
-- [ ] deploy onto AWS
+- wire up routing for notes
+- writing preview cards
+- mission/about format
+- styling
+  - different format for "notes" vs "posts"?
+  - responsiveness!
+- footer socials etc
+- make it all prettier
+- youtube playlists
+- dark mode
+- lazy load pictures?
+- make bundle.js smaller
+- deploy onto AWS
 
 ## Design
 

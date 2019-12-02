@@ -1,4 +1,4 @@
-# ♦ Ethereum: World Computer ♦
+# ♦ Society ♦
 
 ![header](/images/header.jpeg)
 

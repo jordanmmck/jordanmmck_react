@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   background-color: grey;
+  cursor: pointer;
+  &__title:hover {
+    background-color: orangered;
+  }
 
   &__children {
     display: flex;
@@ -13,5 +17,8 @@
     a {
       color: darkblue;
     }
+  }
+  &__child:hover {
+    background-color: orange;
   }
 }

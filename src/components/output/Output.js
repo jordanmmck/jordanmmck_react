@@ -9,7 +9,7 @@ const Output = () => (
       <Switch>
         <Redirect exact path="/o" to="/o/writing" />
         <Route exact path="/o/writing/:post?" component={Writing} />
-        <Route path="/o/notes/:path?" component={Notes} />
+        <Route path="/o/notes/:parent?/:child?" component={Notes} />
       </Switch>
     </div>
   </div>

@@ -1,4 +1,4 @@
-# ♦ Ethereum: World Computer ♦
+# ♦ Sample: World Computer ♦
 
 ![header](/images/header.jpeg)
 

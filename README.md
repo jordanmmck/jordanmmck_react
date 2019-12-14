@@ -7,6 +7,104 @@ yarn install
 yarn dev
 ```
 
+## Names
+
+`zerohedge`
+`seekingalpha`
+`waitbutwhy`
+`deepcode`
+
+`symboloverflow`
+`symbolstack`
+`symbolandsea`
+`inkandsymbol`
+`setandsymbol`
+
+- `symbol`
+- `neon`
+- `blue`
+- `deep`
+- `code`
+
+- `filter`
+- `loop`
+- `hash`
+- `search`
+- `state`
+- `register`
+- `memory`
+- `compile`
+- `overflow`
+- `compute`
+- `object`
+- `set`
+
+- `shape`
+- `figure`
+- `ink`
+
+- `arrow`
+- `descent`
+- `path`
+- `light`
+- `underground`
+- `will`
+- `super`
+- `storm`
+- `cloud`
+- `black`/`dark`
+- `star`
+
+- `chaos`
+- `abyss`
+
+- `thunder`
+- `lightning`
+- `fire`
+- `spark`
+
+- `quark`
+- `strange`
+- `quanta`
+
+- `rook`
+- `bishop`
+
+- `ink_and_fire`
+- `bridges`
+- `overcoming`
+- `wave`
+- `sea`
+- `salt`
+- `charcoal`
+
+- wordsandpictures (too generic)
+- symbolsandwords (i like `symbol`)
+- satsolver
+- zeropoint
+- omegapoint
+- omegasynthesis
+- rook/knight/bishop (maybe chess men would be good for site logo?)
+- metaman
+- metasketch
+- sketching/painting/drawing
+- inkandsymbols (kinda like that, ink is cool)
+- penandsword
+- manandsymbol
+- meaningandsymbol
+- imageandsymbol
+- wordandsymbol
+- signandsymbol (taken)
+- descendingupward
+- symbolsofabyss
+- thunderandabyss
+- symbolsfromunderground
+- whatsitgoingtobetheneh
+
+`wordsandsymbols`
+`wordandsymbol`
+`ropeoverabyss`
+
 ## To Do
 
 - wire up routing for notes
@@ -15,6 +113,7 @@ yarn dev
 - styling
   - different format for "notes" vs "posts"?
   - responsiveness!
+  - put all the nav in a div that is only as wide as the body so the buttons aren't so huge
 - footer socials etc
 - make it all prettier
 - youtube playlists
@@ -23,9 +122,13 @@ yarn dev
 - make bundle.js smaller
 - deploy onto AWS
 
+## Posts
+
+- do a crypto post first? this would be good
+
 ## Design
 
-- simplicity, minimalism, less, less, less
+- maybe keep the side-nav, but newest note becomes default route for notes page?
 
 ### Side Nav
 

@@ -29,6 +29,16 @@ export default class SideNav extends React.Component {
 
         <div className="side-nav" ref={el => (this.sideNav = el)}>
           <SideNavParent
+            parentTitle={'Society'}
+            parentPath={'society'}
+            children={[{ childTitle: 'ethereum', childPath: 'eth' }]}
+          ></SideNavParent>
+          <SideNavParent
+            parentTitle={'Philosophy'}
+            parentPath={'philosophy'}
+            children={[{ childTitle: 'Nietzsche', childPath: 'nietzsche' }]}
+          ></SideNavParent>
+          <SideNavParent
             parentTitle={'Fate of the West'}
             parentPath={'fate-of-west'}
             children={[
